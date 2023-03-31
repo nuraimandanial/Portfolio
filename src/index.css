@@ -1,13 +1,41 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: Roboto;
+  src: url(assets/roboto-condensed.light.ttf);
+  font-weight: 800;
+}
+@font-face {
+  font-family: Economica;
+  src: url(assets/economica-bold.ttf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  padding: 25px;
+  text-align: center;
+  font-size: 32;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.body {
+  background-color:azure;
+  padding: 25px;
+}
+.profile {
+  width: 150px;
+  border-radius: 100%;
+}
+
+.project {
+  width: 250px;
+  border-radius: 5px;
+}
+
+.socialLogo {
+  width: 50px;
+  margin: 15px;
+}
+
+.detailSide {
+  display: inline-table;
+  margin-inline: 30px;
+  padding: 10px;
 }
